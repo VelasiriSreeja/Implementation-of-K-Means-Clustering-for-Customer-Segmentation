@@ -8,10 +8,13 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1.Import pandas and matplot libraries.
+2.import Kmeans algorithm to solve customer segmentation.
+3. Using the for loop cluster the given data
+4. Predict the output and plot data graphs.
+5. Display the outputs
+ 
+ 
 
 ## Program:
 ```
@@ -56,17 +59,27 @@ plt.title("customer segments")
 */
 ```
 ## Output:
-![K Means Clustering for Customer Segmentation](sam.png)
+data.head() function
 
 ![Screenshot (244)](https://github.com/VelasiriSreeja/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/118344328/090f6ed7-7c6d-404a-baf5-d302e0874473)
 
+data.info
+
 ![Screenshot (245)](https://github.com/VelasiriSreeja/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/118344328/1f80e3fd-482a-45b9-ac4d-3702582bc6f6)
+
+data.isnull().sum() function
 
 ![Screenshot (246)](https://github.com/VelasiriSreeja/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/118344328/b7ca6995-ce2b-45e6-9a43-414349df438f)
 
+elbow method graph
+
 ![Screenshot (247)](https://github.com/VelasiriSreeja/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/118344328/0a584a1c-f475-479e-8a63-917359d97f7d)
 
+k means clusters
+
 ![Screenshot (248)](https://github.com/VelasiriSreeja/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/118344328/98727e7d-cc54-448e-ac08-e50eb5141ba2)
+
+customer segment graph
 
 ![Screenshot (249)](https://github.com/VelasiriSreeja/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/118344328/7eb0b186-3ff6-4a58-a898-7c8bedadecb7)
 
